@@ -1,0 +1,131 @@
+body {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: 	#D8BFD8;
+  margin: auto;
+}
+
+/***************** NAV *****************/
+
+nav {
+  color: black;
+  background-color: #936c6c;
+  margin-bottom: 1.5rem;
+  height: 4.0rem;
+  padding-top: 1.5rem;
+  border-bottom: 1.0rem;
+  margin: auto;
+  border-style: groove;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #000000;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  float: left;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/**************** HEADER *****************/
+
+header {
+  margin: auto;
+}
+
+header img {
+  max-height: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: .05rem;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a65959;
+  font-size: 2.0rem;
+  padding-top: 4.0rem;
+}
+
+h1 .logo-w {
+  font-size: 3.5rem;
+}
+
+/**************** ASIDE ****************/
+
+aside form {
+  clear: both;
+  float: left;
+  padding-left: 1rem;
+ }
+
+
+input[type="button"] {
+  padding: .25rem;
+  
+}
+
+form {
+  margin-top: 1.0rem;
+}
+
+form label {
+  font-size: 1.0rem;
+}
+
+form label select {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+form input {
+  margin-top: 0.5rem;
+}
+
+/*********** PRODUCTS ***********/
+
+section {
+	padding: 5rem
+}
+
+
+h2 {
+  padding-top: 5rem;
+  font-size: 10rem;
+  text-align: center;
+}
+
+h3 {
+  
+  padding-top: .5rem;
+  font-size: 3rem;
+  
+ }
+
+ 
+.item-container div img {
+	
+	max-width: 20rem;
+	position: relative;
+	border: 3px solid #000000;
+	margin: 5px;
+}
+
+
+/*********** validator w3schools 2/19/2018 ***********/
+
+
+ 
+
+
+ 
+
