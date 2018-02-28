@@ -15,7 +15,7 @@
     phoneNumber = document.custSignUpForm.phone.value;
     confirmNote = "Thank You" + firstName + " ,You're On our Mailing List!";
 
-    //log the info get from form
+    //info from logged
     console.log(confirmNote);
     console.log(firstName);
     console.log(lastName);
@@ -36,6 +36,5 @@
     modifySection.style.display = "block";
     document.getElementById("emailForm").reset();
 };
-
 
 
