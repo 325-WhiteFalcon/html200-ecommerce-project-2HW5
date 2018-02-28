@@ -1,14 +1,14 @@
 //test out script on web-page
-console.log("script implemented into the page")
+	console.log("Information has been annotated on Page")
 
 //setup values to modify 
-var firstName, lastName, emailAddress, phoneNumber, confirmNote;
+	var firstName, lastName, emailAddress, phoneNumber, confirmNote;
 
-//
-function signUpForm() {
+//Modify function
+	function signUpForm() {
     event.preventDefault();
 
-    //get values from the form
+//get values from the form
     firstName = document.custSignUpForm.fName.value;
     lastName = document.custSignUpForm.lName.value;
     emailAddress = document.custSignUpForm.email.value;
