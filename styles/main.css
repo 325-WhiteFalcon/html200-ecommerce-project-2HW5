@@ -25,7 +25,7 @@ nav ul {
 
 nav a {
   color: #000000;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   font-family: sans-serif;
   font-weight: bold;
   float: left;
@@ -56,7 +56,7 @@ h1 {
   padding-top: 4.0rem;
 }
 
-h1 .logo-w {
+h1 {
   font-size: 3.5rem;
 }
 
@@ -88,7 +88,7 @@ form label select {
 }
 
 form input {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 /*********** PRODUCTS ***********/
@@ -99,8 +99,8 @@ section {
 
 
 h2 {
-  padding-top: 5rem;
-  font-size: 10rem;
+  padding-top: .1rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ h3 {
  }
 
  
-.item-container div img {
+container div img {
 	
 	max-width: 20rem;
 	position: relative;
@@ -121,10 +121,60 @@ h3 {
 }
 
 
-/*********** validator w3schools 2/19/2018 ***********/
+
+/* *****Media Queries - small size screen ***/
+
+@media screen and (max-width: 640px) {
+	body 	{margin: none;
+			 padding: none;
+			}
+								
+	.container {margin: none;
+				padding:none;
+				}
+						
+	h1 {align-content: center;
+		margin-left: auto;
+		margin-right: auto;
+	   }
+						
+	menu {display: flex;
+		  margin: 1rem;
+		  }
+	}
+	
+/****high resolution for Apple Phones****//
 
 
- 
+@media only screen and (min-device-width:350px) and (max-device-width:600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}				
+
+									
+						
+						
+/****aspect ratio****/
+
+@media (min-aspect-ratio:2/1)	{body {color: blue;}
+}
+											
+						
+						
+
 
 
  
