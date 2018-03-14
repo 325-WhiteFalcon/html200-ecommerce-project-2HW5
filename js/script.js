@@ -35,6 +35,9 @@
     var modifySection = document.getElementById("modify");
     modifySection.style.display = "block";
     document.getElementById("emailForm").reset();
-};
+	
+}
+	
+	
 
 
