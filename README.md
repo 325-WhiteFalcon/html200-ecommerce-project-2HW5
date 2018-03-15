@@ -70,3 +70,64 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+
+
+Testing platforms I used to test my site were the following
+Snoarwhal - Results were 47 Errors
+ReponsiveDesignchecker - 
+                        24" Desktop - results were small fonts, but the rendering was responsive.
+                        15" Notebook - results rendered good, rendering was responsive.
+                        Apple Ipad Retina - results rendered small fonts and the logo misplaced, responsive was good. 
+                        Sony Xperia Z2/Z3 - results good fonts, all images were rendered and it was responsive.
+                        Kindle Fire - Results were not good in terms of rendering, both visually - colors not good, not very responsive either
+                        Samsung Galaxy - Results were good color and brightness of images.  Very responsive.
+                        
+    
+Web Page Test
+    
+    Location:  Buenos Aires, Agentina - Chrome:  Results:  
+                First Byte Time - A
+                Keep Alive Enabled - A
+                Compress Transfer - A
+                Compressed Images - F
+                Cache Static Content - F
+                Overall - need to reduce images
+
+Location: Frankfurt, Germany
+                Overall - Testing completed but failed
+  
+    
+    Location: Seoul, Korea - Canary- Cable: Results
+                First Byte Time - A
+                Keep Alive Enabled - A
+                Compress Transfer - A
+                Compressed Images - F
+                Cache Static Content - F
+                Overall - need to reduce images
+    
+PLEASE SEE attached documents for screen shots and results
+                        
+                        
+Speed Testing:  Page Speed Insight
+              Speed: Unavailable
+              Optimization: Medium  68/100
+              Page Stats:  PSI estimates this page requires 3 additional round trips to load render blocking resources and 0.4 MB to fully render.     
+              The median page requires 4 render blocking round trips and 1.5 MB. Fewer round trips and bytes results in faster pages.
+                  
+                        
+Speed Testing: Pingdom Website 
+              Performance grade: B-88
+              Load Time 545 ms
+              Faster than 96% of tested sites
+              Page size:  439.9kb
+              Requests 13
+              Tested from Stockholm
+              Performance Insights 
+                All  "A"s -  
+                "F" Leverage browser caching
+
+PLEASE SEE attached documents for screen shots and results
+
+
+
+
